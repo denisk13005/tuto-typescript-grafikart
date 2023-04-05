@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir" :"dist",
+    "target": "ES2015", // version de js ciblé pour les var les fonctions fléchées ...
+    "noEmitOnError": true,
+    "strict": true
+
+  },
+  "files" : [
+    "src/app.ts"
+  ]
+}
