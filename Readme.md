@@ -6,11 +6,17 @@ https://www.youtube.com/watch?v=uOuulpBs8dQ
 # Syntaxe de base 
 
 const a: string = "hello world"
+
 const n:number = 3
+
 const b:boolean = true
+
 const d:null = null
+
 const arr: string[] = ['aze','vvfr' ..] tableaux de strings
+
 const user : {firstname: string, lastname?: string} = { firstname : 'denis', lastname:'kirmann'} // firtname est raquis mais lastname est optionnel grace au ?
+
 const user : {firstname: string, [key: string] : string} = { firstname : 'denis', lastname:'kirmann'} // le premier paramètre est obligatoire, puis on ne sait pas combien il y en aura en plus
 
 const date : Date = new Date()
